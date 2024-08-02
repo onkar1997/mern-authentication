@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+import path from 'path';
 import cookieParser from 'cookie-parser';
 
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
