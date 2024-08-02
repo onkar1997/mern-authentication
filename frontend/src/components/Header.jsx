@@ -35,7 +35,7 @@ const Header = () => {
     <Navbar variant='dark' bg='dark' expand='lg' collapseOnSelect>
       <Container>
         <LinkContainer to='/'>
-          <Navbar.Brand><SiConsul /> MERN CRUD AUTH</Navbar.Brand>
+          <Navbar.Brand><SiConsul /> MERN AUTH</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
